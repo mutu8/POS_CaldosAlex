@@ -1,0 +1,128 @@
+C:\Users\Steven\Desktop\T\POS\bin\Debug\POS.exe.config
+C:\Users\Steven\Desktop\T\POS\bin\Debug\POS.exe
+C:\Users\Steven\Desktop\T\POS\bin\Debug\POS.pdb
+C:\Users\Steven\Desktop\T\POS\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\Steven\Desktop\T\POS\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Steven\Desktop\T\POS\obj\Debug\POS.frmPrincipal.resources
+C:\Users\Steven\Desktop\T\POS\obj\Debug\POS.frmBebidas.resources
+C:\Users\Steven\Desktop\T\POS\obj\Debug\POS.Properties.Resources.resources
+C:\Users\Steven\Desktop\T\POS\obj\Debug\POS.UserControl1.resources
+C:\Users\Steven\Desktop\T\POS\obj\Debug\POS.UserControl2.resources
+C:\Users\Steven\Desktop\T\POS\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Steven\Desktop\T\POS\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\T\POS\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Steven\Desktop\T\POS\obj\Debug\POS.exe
+C:\Users\Steven\Desktop\T\POS\obj\Debug\POS.pdb
+C:\Users\Steven\Desktop\T\POS\obj\Debug\POS.frmLogin.resources
+C:\Users\Steven\Desktop\T\CapaPresentacion\bin\Debug\Sistema POS.exe.config
+C:\Users\Steven\Desktop\T\CapaPresentacion\bin\Debug\Sistema POS.exe
+C:\Users\Steven\Desktop\T\CapaPresentacion\bin\Debug\Sistema POS.pdb
+C:\Users\Steven\Desktop\T\CapaPresentacion\bin\Debug\CapaeEntidad.dll
+C:\Users\Steven\Desktop\T\CapaPresentacion\bin\Debug\CapaLogica.dll
+C:\Users\Steven\Desktop\T\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Steven\Desktop\T\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Steven\Desktop\T\CapaPresentacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Steven\Desktop\T\CapaPresentacion\bin\Debug\CapaeEntidad.pdb
+C:\Users\Steven\Desktop\T\CapaPresentacion\bin\Debug\CapaLogica.pdb
+C:\Users\Steven\Desktop\T\CapaPresentacion\bin\Debug\CapaLogica.dll.config
+C:\Users\Steven\Desktop\T\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Steven\Desktop\T\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+C:\Users\Steven\Desktop\T\CapaPresentacion\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Steven\Desktop\T\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\Steven\Desktop\T\CapaPresentacion\obj\Debug\POS.Formularios.frmCartaEdit.resources
+C:\Users\Steven\Desktop\T\CapaPresentacion\obj\Debug\POS.frmLogin.resources
+C:\Users\Steven\Desktop\T\CapaPresentacion\obj\Debug\POS.frmPrincipal.resources
+C:\Users\Steven\Desktop\T\CapaPresentacion\obj\Debug\POS.Formularios.frmVentas.resources
+C:\Users\Steven\Desktop\T\CapaPresentacion\obj\Debug\POS.Properties.Resources.resources
+C:\Users\Steven\Desktop\T\CapaPresentacion\obj\Debug\POS.UserControl1.resources
+C:\Users\Steven\Desktop\T\CapaPresentacion\obj\Debug\POS.UserControl2.resources
+C:\Users\Steven\Desktop\T\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Steven\Desktop\T\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\T\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Steven\Desktop\T\CapaPresentacion\obj\Debug\Sistema POS.exe
+C:\Users\Steven\Desktop\T\CapaPresentacion\obj\Debug\Sistema POS.pdb
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\bin\Debug\Sistema POS.exe.config
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\bin\Debug\Sistema POS.exe
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\bin\Debug\Sistema POS.pdb
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\bin\Debug\CapaeEntidad.dll
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\bin\Debug\CapaLogica.dll
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\bin\Debug\CapaeEntidad.pdb
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\bin\Debug\CapaLogica.pdb
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\bin\Debug\CapaLogica.dll.config
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\obj\Debug\POS.Formularios.frmCartaEdit.resources
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\obj\Debug\POS.frmLogin.resources
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\obj\Debug\POS.frmPrincipal.resources
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\obj\Debug\POS.Formularios.frmVentas.resources
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\obj\Debug\POS.Properties.Resources.resources
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\obj\Debug\POS.UserControl1.resources
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\obj\Debug\POS.UserControl2.resources
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\obj\Debug\Sistema POS.exe
+C:\Users\Steven\Desktop\Git\T\CapaPresentacion\obj\Debug\Sistema POS.pdb
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\obj\Debug\POS.Formularios.frmCartaEdit.resources
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\obj\Debug\POS.frmLogin.resources
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\obj\Debug\POS.frmPrincipal.resources
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\obj\Debug\POS.Formularios.frmVentas.resources
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\obj\Debug\POS.Properties.Resources.resources
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\obj\Debug\POS.UserControl1.resources
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\obj\Debug\POS.UserControl2.resources
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\obj\Debug\Sistema POS.exe
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\obj\Debug\Sistema POS.pdb
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Sistema POS.exe.config
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Sistema POS.exe
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Sistema POS.pdb
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\CapaeEntidad.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\CapaLogica.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\CapaeEntidad.pdb
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\CapaLogica.pdb
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\CapaLogica.dll.config
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\PuppeteerSharp.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\System.Buffers.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\System.Memory.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\PuppeteerSharp.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\System.Buffers.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\System.Memory.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaPresentacion\obj\Debug\POS.Formularios.frmCajaReporte.resources

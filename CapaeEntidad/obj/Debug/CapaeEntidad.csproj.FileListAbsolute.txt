@@ -1,0 +1,18 @@
+C:\Users\Steven\source\repos\mutu8\PF_Diars\CapaeEntidad\bin\Debug\CapaeEntidad.dll
+C:\Users\Steven\source\repos\mutu8\PF_Diars\CapaeEntidad\bin\Debug\CapaeEntidad.pdb
+C:\Users\Steven\source\repos\mutu8\PF_Diars\CapaeEntidad\obj\Debug\CapaeEntidad.csproj.AssemblyReference.cache
+C:\Users\Steven\source\repos\mutu8\PF_Diars\CapaeEntidad\obj\Debug\CapaeEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Steven\source\repos\mutu8\PF_Diars\CapaeEntidad\obj\Debug\CapaeEntidad.dll
+C:\Users\Steven\source\repos\mutu8\PF_Diars\CapaeEntidad\obj\Debug\CapaeEntidad.pdb
+C:\Users\Steven\Desktop\T\CapaeEntidad\bin\Debug\CapaeEntidad.dll
+C:\Users\Steven\Desktop\T\CapaeEntidad\bin\Debug\CapaeEntidad.pdb
+C:\Users\Steven\Desktop\T\CapaeEntidad\obj\Debug\CapaeEntidad.csproj.AssemblyReference.cache
+C:\Users\Steven\Desktop\T\CapaeEntidad\obj\Debug\CapaeEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\T\CapaeEntidad\obj\Debug\CapaeEntidad.dll
+C:\Users\Steven\Desktop\T\CapaeEntidad\obj\Debug\CapaeEntidad.pdb
+C:\Users\Steven\Desktop\Sistema POS\CapaeEntidad\bin\Debug\CapaeEntidad.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaeEntidad\bin\Debug\CapaeEntidad.pdb
+C:\Users\Steven\Desktop\Sistema POS\CapaeEntidad\obj\Debug\CapaeEntidad.csproj.AssemblyReference.cache
+C:\Users\Steven\Desktop\Sistema POS\CapaeEntidad\obj\Debug\CapaeEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\Sistema POS\CapaeEntidad\obj\Debug\CapaeEntidad.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaeEntidad\obj\Debug\CapaeEntidad.pdb

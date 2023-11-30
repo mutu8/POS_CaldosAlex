@@ -1,0 +1,92 @@
+C:\Users\Steven\source\repos\mutu8\PF_DIARS\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Steven\source\repos\mutu8\PF_DIARS\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Steven\source\repos\mutu8\PF_DIARS\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Steven\source\repos\mutu8\PF_DIARS\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Steven\source\repos\mutu8\PF_DIARS\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Steven\source\repos\mutu8\PF_DIARS\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Steven\source\repos\mutu8\PF_Diars\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\Steven\source\repos\mutu8\PF_Diars\CapaDatos\bin\Debug\CapaeEntidad.dll
+C:\Users\Steven\source\repos\mutu8\PF_Diars\CapaDatos\bin\Debug\CapaeEntidad.pdb
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\CapaeEntidad.dll
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\RestSharp.dll
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.Buffers.dll
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.Memory.dll
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.Text.Json.dll
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.ValueTuple.dll
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\CapaeEntidad.pdb
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\RestSharp.xml
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.Buffers.xml
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.Memory.xml
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.Text.Json.xml
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Steven\Desktop\T\CapaDatos\bin\Debug\System.ValueTuple.xml
+C:\Users\Steven\Desktop\T\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Steven\Desktop\T\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\T\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\Steven\Desktop\T\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Steven\Desktop\T\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\CapaeEntidad.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\PuppeteerSharp.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\RestSharp.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.Buffers.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.Memory.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.Text.Json.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.ValueTuple.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\CapaeEntidad.pdb
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\PuppeteerSharp.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\RestSharp.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.Buffers.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.Memory.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.Text.Json.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\bin\Debug\System.ValueTuple.xml
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Steven\Desktop\Sistema POS\CapaDatos\obj\Debug\CapaDatos.pdb

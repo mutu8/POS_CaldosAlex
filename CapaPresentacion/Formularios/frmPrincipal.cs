@@ -43,6 +43,8 @@ namespace POS
 
             PD.BeginPrint += new PrintEventHandler(PD_BeginPrint);
             PD.PrintPage += new PrintPageEventHandler(PD_PrintPage);
+
+  
         }
 
         private void InitilizeUI(string key)
@@ -272,13 +274,33 @@ namespace POS
             //gunaLabel15.Text = nombreUsuario;
             lblNombreLogin.Text = nombreUsuario;
         }
+        static string BuscarCarpetaImagenes()
+        {
+            string directorioActual = AppDomain.CurrentDomain.BaseDirectory;
+
+            // Busca hacia atrás en la estructura de directorios hasta encontrar la carpeta "Resources\Imagenes"
+            while (directorioActual != null)
+            {
+                string carpetaImagenes = Path.Combine(directorioActual, "Resources", "Imagenes");
+
+                if (Directory.Exists(carpetaImagenes))
+                {
+                    return carpetaImagenes;
+                }
+
+                directorioActual = Path.GetDirectoryName(directorioActual);
+            }
+
+            return null; // No se encontró la carpeta de imágenes
+        }
+
         //Llenado de carta en el panel
         private void cargarElementosPanelCarta(string query)
         {
             // Limpiar el panel antes de cargar nuevos datos
             panelGeneral.Controls.Clear();
 
-            string carpetaImagenes = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "Imagenes");
+            string carpetaImagenes = BuscarCarpetaImagenes();
 
             try
             {
@@ -707,10 +729,6 @@ namespace POS
             string nombreComponente = userControl2.Nombre;
             decimal precioComponente = userControl2.Precio;
             int cantidadComponente = userControl2.Cantidad;
-
-            // Aquí debes implementar la lógica para eliminar el componente del pedido
-            // Utiliza la información obtenida para identificar el componente específico
-            // y ejecuta la eliminación en tu base de datos.
 
             string eliminarComponenteQuery = $"DELETE FROM PedidoComponente WHERE idPedido IN " +
                                     $"(SELECT p.idPedido FROM Pedido p " +
@@ -1615,9 +1633,10 @@ namespace POS
             else return false;   
         }
 
-        
-
-       
+        private void btnHome_DoubleClick(object sender, EventArgs e)
+        {
+            hidePanelesNecesariosMenú();
+        }
     }
 }
 

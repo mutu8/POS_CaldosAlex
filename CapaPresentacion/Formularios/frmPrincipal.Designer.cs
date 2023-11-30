@@ -208,6 +208,7 @@
             this.btnHome.Size = new System.Drawing.Size(103, 74);
             this.btnHome.TabIndex = 1;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            this.btnHome.DoubleClick += new System.EventHandler(this.btnHome_DoubleClick);
             // 
             // btnCartaEditar
             // 

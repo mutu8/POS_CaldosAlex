@@ -151,109 +151,6 @@ namespace POS.Formularios
             dateTimePicker.MaxDate = DateTime.Today.AddYears(10);
         }
 
-
-        /*
-        private void CargarVentas(string tipoVenta, string metodoPago, DateTime fechaInicio, DateTime fechaFinal)
-        {
-            try
-            {
-                using (SqlConnection conexion = new SqlConnection(connectionString))
-                {
-                    conexion.Open();
-
-                    // Consulta para obtener los datos filtrados de la tabla Venta
-                    string consulta = @"
-                    SELECT V.idVenta,
-                           CV.nombreCategoria AS TipoVenta,
-                           MP.nombreMetPag AS MetodoPago,
-                           CONVERT(VARCHAR(10), V.FechaVenta, 103) AS FechaVenta,
-                           CONVERT(VARCHAR(5), V.FechaVenta, 108) AS HoraVenta, 
-                           V.NombreCliente,
-                           V.ApellidoCliente,
-                           V.ImporteVenta
-                    FROM Venta V
-                        INNER JOIN CategoriaVenta CV ON V.idCategoríaVenta = CV.idCategoriaVenta
-                        INNER JOIN Pedido P ON V.idPedido = P.idPedido
-                        INNER JOIN MetodoPago MP ON V.idMetodoPago = MP.idMetodoPago
-                        AND V.FechaVenta >= @FechaInicio
-                        AND V.FechaVenta < DATEADD(MONTH, 1, @FechaInicio)
-                        AND V.FechaVenta < @FechaFinal
-                        AND V.FechaVenta >= @FechaInicio AND V.FechaVenta < DATEADD(DAY, 1, @FechaFinal)
-                        AND (@TipoVenta IS NULL OR CV.nombreCategoria = @TipoVenta OR @TipoVenta = '')
-                        AND (@MetodoPago IS NULL OR MP.nombreMetPag = @MetodoPago)
-                        ORDER BY V.FechaVenta DESC";
-
-
-                    using (SqlDataAdapter adaptador = new SqlDataAdapter(consulta, conexion))
-                    {
-                        adaptador.SelectCommand.Parameters.AddWithValue("@FechaInicio", fechaInicio);
-                        adaptador.SelectCommand.Parameters.AddWithValue("@FechaFinal", fechaFinal);
-                        adaptador.SelectCommand.Parameters.AddWithValue("@TipoVenta", tipoVenta ?? (object)DBNull.Value);
-                        adaptador.SelectCommand.Parameters.AddWithValue("@MetodoPago", metodoPago ?? (object)DBNull.Value);
-
-                        DataTable tablaVentas = new DataTable();
-                        adaptador.Fill(tablaVentas);
-
-                        // Añadir la columna ImporteVenta si no existe
-                        if (!tablaVentas.Columns.Contains("ImporteVenta"))
-                            tablaVentas.Columns.Add("ImporteVenta", typeof(decimal));
-
-                        // Añadir la columna Fecha si no existe
-                        if (!tablaVentas.Columns.Contains("Fecha"))
-                            tablaVentas.Columns.Add("Fecha", typeof(string));
-
-                        // Iterar a través de las filas y dividir la FechaVenta en Fecha y Hora
-                        foreach (DataRow fila in tablaVentas.Rows)
-                        {
-                            DateTime fechaVenta = Convert.ToDateTime(fila["FechaVenta"]);
-                            fila["Fecha"] = fechaVenta.ToString("dd/MM/yyyy");
-                        }
-
-                        // Remover la columna original de FechaVenta
-                        tablaVentas.Columns.Remove("FechaVenta");
-
-                        // Almacena los datos originales antes de paginar
-                        tablaVentasCompleta = tablaVentas.Copy();
-
-                        // Calcula el número total de páginas
-                        totalPages = (int)Math.Ceiling((double)tablaVentasCompleta.Rows.Count / pageSize);
-
-                        // Asignar la vista ordenada al DataGridView
-                        dataGridViewVentas.DataSource = tablaVentas.DefaultView.ToTable();
-                        dataGridViewVentas.ReadOnly = true;
-
-                        // Configurar la visibilidad de las columnas
-                        dataGridViewVentas.Columns["NombreCliente"].Visible = false;
-                        dataGridViewVentas.Columns["ApellidoCliente"].Visible = false;
-                        dataGridViewVentas.Columns["idVenta"].Visible = false;
-
-                        // Asignar nombres específicos a las columnas
-                        //dataGridViewVentas.Columns["idVenta"].HeaderText = "ID";
-                        dataGridViewVentas.Columns["TipoVenta"].HeaderText = "TIPO DE COMPROBANTE";
-                        dataGridViewVentas.Columns["metodoPago"].HeaderText = "FORMA DE PAGO";
-                        dataGridViewVentas.Columns["HoraVenta"].HeaderText = "HORA DE VENTA";
-                        dataGridViewVentas.Columns["ImporteVenta"].HeaderText = "IMPORTE DE VENTA";
-
-                        // Configurar el orden de las columnas
-                        dataGridViewVentas.Columns["Fecha"].DisplayIndex = 3;
-                        
-                        
-                        // Ordenar las filas por la columna "Fecha" en orden descendente
-                        tablaVentas.DefaultView.Sort = "Fecha DESC";
-                        DataTable tablaVentasOrdenada = tablaVentas.DefaultView.ToTable();
-                        decimal totalImporteVentas = CalcularTotalImporteVentas(tablaVentas);
-                        lblTotal.Text=totalImporteVentas.ToString();
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error al cargar los datos de ventas: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-           
-        }
-        */
-
         private void CargarVentas(string tipoVenta, string metodoPago, DateTime fechaInicio, DateTime fechaFinal)
         {
             try
@@ -360,6 +257,7 @@ namespace POS.Formularios
             dataGridViewVentas.Columns["metodoPago"].HeaderText = "FORMA DE PAGO";
             dataGridViewVentas.Columns["HoraVenta"].HeaderText = "HORA DE VENTA";
             dataGridViewVentas.Columns["ImporteVenta"].HeaderText = "IMPORTE DE VENTA";
+            dataGridViewVentas.Columns["Fecha"].HeaderText = "FECHA";
 
             // Configurar el orden de las columnas
             dataGridViewVentas.Columns["Fecha"].DisplayIndex = 3;

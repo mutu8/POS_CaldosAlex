@@ -93,11 +93,12 @@
             this.groupBox1.Controls.Add(this.gunaLabel3);
             this.groupBox1.Controls.Add(this.gunaLabel1);
             this.groupBox1.Controls.Add(this.gunaLabel2);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Gray;
-            this.groupBox1.Location = new System.Drawing.Point(360, 0);
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(634, 170);
+            this.groupBox1.Size = new System.Drawing.Size(1152, 210);
             this.groupBox1.TabIndex = 67;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos de edición";
@@ -123,7 +124,7 @@
             this.btnCancel.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.Image")));
             this.btnCancel.ImageSize = new System.Drawing.Size(20, 20);
             this.btnCancel.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.btnCancel.Location = new System.Drawing.Point(447, 82);
+            this.btnCancel.Location = new System.Drawing.Point(694, 94);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnCancel.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -159,7 +160,7 @@
             this.btnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Image")));
             this.btnGuardar.ImageSize = new System.Drawing.Size(20, 20);
             this.btnGuardar.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.btnGuardar.Location = new System.Drawing.Point(447, 119);
+            this.btnGuardar.Location = new System.Drawing.Point(694, 131);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnGuardar.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -179,7 +180,7 @@
             this.lblDescripcion.AutoSize = true;
             this.lblDescripcion.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescripcion.ForeColor = System.Drawing.Color.Gray;
-            this.lblDescripcion.Location = new System.Drawing.Point(225, 89);
+            this.lblDescripcion.Location = new System.Drawing.Point(472, 101);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(162, 15);
             this.lblDescripcion.TabIndex = 66;
@@ -190,7 +191,7 @@
             this.lblID.AutoSize = true;
             this.lblID.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblID.ForeColor = System.Drawing.Color.Gray;
-            this.lblID.Location = new System.Drawing.Point(225, 45);
+            this.lblID.Location = new System.Drawing.Point(472, 57);
             this.lblID.Name = "lblID";
             this.lblID.Size = new System.Drawing.Size(162, 15);
             this.lblID.TabIndex = 61;
@@ -199,7 +200,7 @@
             // txtPrecio
             // 
             this.txtPrecio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.txtPrecio.Location = new System.Drawing.Point(226, 126);
+            this.txtPrecio.Location = new System.Drawing.Point(473, 138);
             this.txtPrecio.Multiline = true;
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(160, 20);
@@ -227,7 +228,7 @@
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
             this.btnEditar.ImageSize = new System.Drawing.Size(20, 20);
             this.btnEditar.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.btnEditar.Location = new System.Drawing.Point(447, 45);
+            this.btnEditar.Location = new System.Drawing.Point(694, 57);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnEditar.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -247,7 +248,7 @@
             this.gunaLabel3.AutoSize = true;
             this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel3.ForeColor = System.Drawing.Color.Gray;
-            this.gunaLabel3.Location = new System.Drawing.Point(60, 128);
+            this.gunaLabel3.Location = new System.Drawing.Point(307, 140);
             this.gunaLabel3.Name = "gunaLabel3";
             this.gunaLabel3.Size = new System.Drawing.Size(43, 15);
             this.gunaLabel3.TabIndex = 64;
@@ -258,7 +259,7 @@
             this.gunaLabel1.AutoSize = true;
             this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel1.ForeColor = System.Drawing.Color.Gray;
-            this.gunaLabel1.Location = new System.Drawing.Point(60, 45);
+            this.gunaLabel1.Location = new System.Drawing.Point(307, 57);
             this.gunaLabel1.Name = "gunaLabel1";
             this.gunaLabel1.Size = new System.Drawing.Size(23, 15);
             this.gunaLabel1.TabIndex = 57;
@@ -269,7 +270,7 @@
             this.gunaLabel2.AutoSize = true;
             this.gunaLabel2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel2.ForeColor = System.Drawing.Color.Gray;
-            this.gunaLabel2.Location = new System.Drawing.Point(60, 86);
+            this.gunaLabel2.Location = new System.Drawing.Point(307, 98);
             this.gunaLabel2.Name = "gunaLabel2";
             this.gunaLabel2.Size = new System.Drawing.Size(73, 15);
             this.gunaLabel2.TabIndex = 62;

@@ -16,3 +16,15 @@ C:\Users\Steven\Desktop\Sistema POS\CapaeEntidad\obj\Debug\CapaeEntidad.csproj.A
 C:\Users\Steven\Desktop\Sistema POS\CapaeEntidad\obj\Debug\CapaeEntidad.csproj.CoreCompileInputs.cache
 C:\Users\Steven\Desktop\Sistema POS\CapaeEntidad\obj\Debug\CapaeEntidad.dll
 C:\Users\Steven\Desktop\Sistema POS\CapaeEntidad\obj\Debug\CapaeEntidad.pdb
+C:\Users\Steven\Desktop\Sistema POS_SINMDF\CapaeEntidad\bin\Debug\CapaeEntidad.dll
+C:\Users\Steven\Desktop\Sistema POS_SINMDF\CapaeEntidad\bin\Debug\CapaeEntidad.pdb
+C:\Users\Steven\Desktop\Sistema POS_SINMDF\CapaeEntidad\obj\Debug\CapaeEntidad.csproj.AssemblyReference.cache
+C:\Users\Steven\Desktop\Sistema POS_SINMDF\CapaeEntidad\obj\Debug\CapaeEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\Sistema POS_SINMDF\CapaeEntidad\obj\Debug\CapaeEntidad.dll
+C:\Users\Steven\Desktop\Sistema POS_SINMDF\CapaeEntidad\obj\Debug\CapaeEntidad.pdb
+C:\Users\Steven\Desktop\Sistema POS_LOCALBD\CapaeEntidad\bin\Debug\CapaeEntidad.dll
+C:\Users\Steven\Desktop\Sistema POS_LOCALBD\CapaeEntidad\bin\Debug\CapaeEntidad.pdb
+C:\Users\Steven\Desktop\Sistema POS_LOCALBD\CapaeEntidad\obj\Debug\CapaeEntidad.csproj.AssemblyReference.cache
+C:\Users\Steven\Desktop\Sistema POS_LOCALBD\CapaeEntidad\obj\Debug\CapaeEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\Sistema POS_LOCALBD\CapaeEntidad\obj\Debug\CapaeEntidad.dll
+C:\Users\Steven\Desktop\Sistema POS_LOCALBD\CapaeEntidad\obj\Debug\CapaeEntidad.pdb

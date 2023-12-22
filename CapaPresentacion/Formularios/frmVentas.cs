@@ -20,7 +20,6 @@ namespace POS.Formularios
 {
     public partial class frmVentas : Form
     {
-        //private string connectionString = "Server=34.176.49.57;Database=bd_caldosAlex;User Id=sqlserver;Password=@hV\"1%`(o63_/7V:;";
         private string connectionString = logConexion.Instancia.ObtenerConexion();
 
         private DataGridViewRow filaSeleccionada = null;
@@ -206,7 +205,7 @@ namespace POS.Formularios
                         dataGridViewVentas.DataSource = tablaVentas;
 
                         // Actualizar la visualización
-                        dataGridViewVentas.Refresh();
+                        //dataGridViewVentas.Refresh();
 
                         decimal totalImporteVentas = CalcularTotalImporteVentas(tablaVentas);
                         lblTotal.Text = totalImporteVentas.ToString();
@@ -590,7 +589,7 @@ namespace POS.Formularios
                         total
                     );
 
-                    //MessageBox.Show("Documento generados exitosamente.");
+                    MessageBox.Show("Documento generados exitosamente.");
 
                 }
                 else

@@ -34,17 +34,20 @@ namespace POS
         {
             InitializeComponent();
             InitilizeUI("UIMode");
+
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            
             AsignarEventosBotonesMesas();
             CargarMetodosPago(cboMetodoPago);
             CargarCategoriasVenta(cboCategoriaVenta);
             ConfigurarTextBoxes();
-            InactividadValidacion();
+            //InactividadValidacion();
             enableDisableCaja();
 
             PD.BeginPrint += new PrintEventHandler(PD_BeginPrint);
             PD.PrintPage += new PrintPageEventHandler(PD_PrintPage);
-
-  
         }
 
         private void InitilizeUI(string key)
@@ -144,9 +147,7 @@ namespace POS
 
             //CentrarPanelEnPanelGeneral();
             hidePanelesNecesariosMenú();
-
-            //Console.WriteLine(numCajaSeleccionada);
-            
+      
         }
         //Método de carga de métodos de pago en el comboBox
         private void CargarMetodosPago(ComboBox cboMetodoPago)
@@ -281,7 +282,7 @@ namespace POS
             // Busca hacia atrás en la estructura de directorios hasta encontrar la carpeta "Resources\Imagenes"
             while (directorioActual != null)
             {
-                string carpetaImagenes = Path.Combine(directorioActual, "Resources", "Imagenes");
+                string carpetaImagenes = Path.Combine(directorioActual, "Imagenes");
 
                 if (Directory.Exists(carpetaImagenes))
                 {
@@ -1247,6 +1248,7 @@ namespace POS
 
             btnAbrirCaja.Hide();
             btnCerrarCaja.Hide();
+            lblCaja.Hide();
         }
         
         private void showPanelesNecesariosMenú()
@@ -1257,6 +1259,7 @@ namespace POS
 
             btnAbrirCaja.Show();
             btnCerrarCaja.Show();
+            lblCaja.Show();
         }   
 
         private void btnCartaEditar_Click(object sender, EventArgs e)
@@ -1637,6 +1640,8 @@ namespace POS
         {
             hidePanelesNecesariosMenú();
         }
+
+       
     }
 }
 

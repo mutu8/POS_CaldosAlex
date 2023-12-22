@@ -1,9 +1,16 @@
--- Crear la base de datos si no existe
-DROP DATABASE BD_CaldosAlex
+-- Si existe, elimina la base de datos existente
+IF EXISTS (SELECT name FROM sys.databases WHERE name = 'BD_CaldosAlex')
+BEGIN
+    ALTER DATABASE BD_CaldosAlex SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE BD_CaldosAlex;
+END
+
+-- Crea la base de datos
 IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'BD_CaldosAlex')
 BEGIN
     CREATE DATABASE BD_CaldosAlex;
 END
+
 
 ALTER AUTHORIZATION ON DATABASE::BD_CaldosAlex TO sa
 GO
@@ -144,7 +151,6 @@ VALUES
 ('POLLO A LA BRASA'),
 ('PLATOS A LA CARTA');
 
--- Insertar platos con su categoría
 INSERT INTO Componentes (descripcionComponente, precioComponente, idTipoComponente, idCategoriaPlato)
 VALUES
 ('CALDO DE POLLO', 11.00, 1, 1),
@@ -152,9 +158,6 @@ VALUES
 ('PRESA DE GALLINA', 8.00, 1, 1),
 ('PRESA DE POLLO', 6.00, 1, 1),
 ('CALDO ESPECIAL', 5.00, 1, 1),
-
-
--- Pollo a la brasa
 ('POLLO ENTERO', 65.00, 1, 2),
 ('UN OCTAVO DE POLLO', 12.00, 1, 2),
 ('PRESA UN OCTAVO', 6.00, 1, 2),
@@ -163,8 +166,6 @@ VALUES
 ('COMBO 2', 14.00, 1, 2),
 ('COMBO 3', 19.00, 1, 2),
 ('COMBO 4', 20.00, 1, 2),
-
--- Platos a la carta
 ('LOMO SALTADO', 19.00, 1, 3),
 ('LOMO MONTADO', 20.00, 1, 3),
 ('LOMO POBRE', 21.00, 1, 3),
@@ -252,7 +253,7 @@ DROP TRIGGER ActualizarPedidoMesa;
 GO
 
 -- Creamos el trigger en la tabla Venta
-CREATE TRIGGER ActualizarPedidoMesa
+CREATE OR ALTER TRIGGER ActualizarPedidoMesa
 ON Venta
 AFTER INSERT
 AS
@@ -276,12 +277,6 @@ BEGIN
     WHERE idPedido = @idPedido;
 END;
 
-
-
--- Eliminar el trigger si ya existe
-IF OBJECT_ID('ActualizarFechaCierre', 'TR') IS NOT NULL
-DROP TRIGGER ActualizarFechaCierre;
-GO
 
 -- Crear el trigger
 CREATE OR ALTER TRIGGER ActualizarFechaCierre

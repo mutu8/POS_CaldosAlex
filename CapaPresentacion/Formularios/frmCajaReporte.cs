@@ -443,8 +443,6 @@ namespace POS.Formularios
                     }
                 }
 
-
-
                 // Llamar a la función para generar documentos de impresión de la caja
                 logImpresion generadorImpresion = new logImpresion();
                 generadorImpresion.GenerarDocumentosImpresionCaja(
@@ -464,7 +462,6 @@ namespace POS.Formularios
                     totalVentasTarjeta,
                     gastos
                 ); ;
-
 
                 // MessageBox.Show("Documentos generados exitosamente.");
 

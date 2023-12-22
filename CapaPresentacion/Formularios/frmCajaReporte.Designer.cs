@@ -261,7 +261,7 @@
             this.btnImprimir.Radius = 8;
             this.btnImprimir.Size = new System.Drawing.Size(91, 29);
             this.btnImprimir.TabIndex = 74;
-            this.btnImprimir.Text = "Imprimir";
+            this.btnImprimir.Text = "A4";
             this.btnImprimir.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
             // 

@@ -248,13 +248,12 @@ namespace CapaDatos
                         await GeneratePdfFromHtml(rutaCompletaHTML, rutaCompletaPDF);
 
                         Console.WriteLine("Conversión exitosa. PDF guardado en resultado.pdf");
+                        Console.WriteLine($"Archivo PDF creado exitosamente en: {rutaCompletaPDF}");
                     }
                     catch (Exception ex)
                     {
                         Console.WriteLine($"Error en la conversión: {ex.Message}");
                     }
-
-                    Console.WriteLine($"Archivo PDF creado exitosamente en: {rutaCompletaPDF}");
 
                     // Elimina el archivo HTML después de generar el PDF
                     File.Delete(rutaCompletaHTML);
@@ -278,7 +277,7 @@ namespace CapaDatos
         {
             try
             {
-                object value = await new BrowserFetcher().DownloadAsync(BrowserFetcher.DefaultRevision);
+                object value = await new BrowserFetcher().DownloadAsync();
 
                 using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
                 {
@@ -294,7 +293,7 @@ namespace CapaDatos
                     await page.SetContentAsync(htmlContent);
 
                     // Configuración de PdfOptions
-                    var pdfOptions = new PuppeteerSharp.PdfOptions
+                    var pdfOptions = new    PdfOptions
                     {
                         PrintBackground = true,
 

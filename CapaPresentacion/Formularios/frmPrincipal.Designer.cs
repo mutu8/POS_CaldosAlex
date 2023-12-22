@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
             this.btnCaja = new Guna.UI.WinForms.GunaGradientTileButton();
-            this.rjToggleButton1 = new POS.Resources.RJToggleButton();
             this.btnHome = new Guna.UI.WinForms.GunaGradientTileButton();
             this.btnCartaEditar = new Guna.UI.WinForms.GunaGradientTileButton();
             this.btnCombos = new Guna.UI.WinForms.GunaGradientTileButton();
@@ -40,11 +39,11 @@
             this.btnAdicionales = new Guna.UI.WinForms.GunaGradientTileButton();
             this.btnBebidas = new Guna.UI.WinForms.GunaGradientTileButton();
             this.btnPlatos = new Guna.UI.WinForms.GunaGradientTileButton();
+            this.btnCerrarCaja = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btnAbrirCaja = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.panelMenu = new System.Windows.Forms.Panel();
             this.panelBusqueda = new System.Windows.Forms.Panel();
-            this.btnCerrarCaja = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.btnAbrirCaja = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaGradient2Panel1 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.lblMesaSeleccion = new Guna.UI.WinForms.GunaLabel();
             this.gunaGradient2Panel3 = new Guna.UI.WinForms.GunaGradient2Panel();
@@ -100,6 +99,8 @@
             this.gunaLabel_date = new Guna.UI.WinForms.GunaLabel();
             this.panelGeneral = new System.Windows.Forms.Panel();
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.lblCaja = new Guna.UI.WinForms.GunaLabel();
+            this.rjToggleButton1 = new POS.Resources.RJToggleButton();
             this.gunaPanel1.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.panelBusqueda.SuspendLayout();
@@ -118,8 +119,8 @@
             // gunaPanel1
             // 
             this.gunaPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaPanel1.Controls.Add(this.btnCaja);
             this.gunaPanel1.Controls.Add(this.rjToggleButton1);
+            this.gunaPanel1.Controls.Add(this.btnCaja);
             this.gunaPanel1.Controls.Add(this.btnHome);
             this.gunaPanel1.Controls.Add(this.btnCartaEditar);
             this.gunaPanel1.Controls.Add(this.btnCombos);
@@ -162,23 +163,6 @@
             this.btnCaja.TabIndex = 4;
             this.btnCaja.Text = "Registro de caja";
             this.btnCaja.Click += new System.EventHandler(this.btnCaja_Click);
-            // 
-            // rjToggleButton1
-            // 
-            this.rjToggleButton1.AutoSize = true;
-            this.rjToggleButton1.BackColor = System.Drawing.Color.Transparent;
-            this.rjToggleButton1.ForeColor = System.Drawing.Color.Transparent;
-            this.rjToggleButton1.Location = new System.Drawing.Point(23, 84);
-            this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
-            this.rjToggleButton1.Name = "rjToggleButton1";
-            this.rjToggleButton1.OffBackColor = System.Drawing.Color.Gray;
-            this.rjToggleButton1.OffToggleColor = System.Drawing.Color.Gainsboro;
-            this.rjToggleButton1.OnBackColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjToggleButton1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
-            this.rjToggleButton1.Size = new System.Drawing.Size(45, 22);
-            this.rjToggleButton1.TabIndex = 0;
-            this.rjToggleButton1.UseVisualStyleBackColor = false;
-            this.rjToggleButton1.CheckedChanged += new System.EventHandler(this.rjToggleButton1_CheckedChanged);
             // 
             // btnHome
             // 
@@ -390,32 +374,6 @@
             this.btnPlatos.Text = "Platillos";
             this.btnPlatos.Click += new System.EventHandler(this.gunaGradientTileButton1_Click);
             // 
-            // gunaDragControl1
-            // 
-            this.gunaDragControl1.TargetControl = this;
-            // 
-            // panelMenu
-            // 
-            this.panelMenu.Controls.Add(this.gunaPanel1);
-            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelMenu.Location = new System.Drawing.Point(0, 33);
-            this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(103, 900);
-            this.panelMenu.TabIndex = 34;
-            // 
-            // panelBusqueda
-            // 
-            this.panelBusqueda.BackColor = System.Drawing.Color.Transparent;
-            this.panelBusqueda.Controls.Add(this.btnCerrarCaja);
-            this.panelBusqueda.Controls.Add(this.btnAbrirCaja);
-            this.panelBusqueda.Controls.Add(this.gunaGradient2Panel1);
-            this.panelBusqueda.Controls.Add(this.gunaGradient2Panel3);
-            this.panelBusqueda.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelBusqueda.Location = new System.Drawing.Point(103, 33);
-            this.panelBusqueda.Name = "panelBusqueda";
-            this.panelBusqueda.Size = new System.Drawing.Size(1152, 74);
-            this.panelBusqueda.TabIndex = 43;
-            // 
             // btnCerrarCaja
             // 
             this.btnCerrarCaja.Animated = true;
@@ -436,7 +394,7 @@
             this.btnCerrarCaja.Image = null;
             this.btnCerrarCaja.ImageSize = new System.Drawing.Size(24, 24);
             this.btnCerrarCaja.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.btnCerrarCaja.Location = new System.Drawing.Point(355, 20);
+            this.btnCerrarCaja.Location = new System.Drawing.Point(278, 35);
             this.btnCerrarCaja.Name = "btnCerrarCaja";
             this.btnCerrarCaja.OnHoverBaseColor = System.Drawing.Color.Tomato;
             this.btnCerrarCaja.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -445,9 +403,9 @@
             this.btnCerrarCaja.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.btnCerrarCaja.OnPressedColor = System.Drawing.Color.White;
             this.btnCerrarCaja.Radius = 8;
-            this.btnCerrarCaja.Size = new System.Drawing.Size(139, 40);
+            this.btnCerrarCaja.Size = new System.Drawing.Size(57, 27);
             this.btnCerrarCaja.TabIndex = 71;
-            this.btnCerrarCaja.Text = "Cerrar caja";
+            this.btnCerrarCaja.Text = "Cerrar";
             this.btnCerrarCaja.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnCerrarCaja.Click += new System.EventHandler(this.btnCerrarCaja_Click);
             // 
@@ -457,6 +415,7 @@
             this.btnAbrirCaja.AnimationHoverSpeed = 0.07F;
             this.btnAbrirCaja.AnimationSpeed = 0.03F;
             this.btnAbrirCaja.BackColor = System.Drawing.Color.Transparent;
+            this.btnAbrirCaja.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnAbrirCaja.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(176)))), ((int)(((byte)(85)))));
             this.btnAbrirCaja.BorderColor = System.Drawing.Color.Black;
             this.btnAbrirCaja.CheckedBaseColor = System.Drawing.Color.Gray;
@@ -471,7 +430,7 @@
             this.btnAbrirCaja.Image = null;
             this.btnAbrirCaja.ImageSize = new System.Drawing.Size(24, 24);
             this.btnAbrirCaja.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.btnAbrirCaja.Location = new System.Drawing.Point(200, 20);
+            this.btnAbrirCaja.Location = new System.Drawing.Point(215, 36);
             this.btnAbrirCaja.Name = "btnAbrirCaja";
             this.btnAbrirCaja.OnHoverBaseColor = System.Drawing.Color.Tomato;
             this.btnAbrirCaja.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -480,11 +439,38 @@
             this.btnAbrirCaja.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.btnAbrirCaja.OnPressedColor = System.Drawing.Color.White;
             this.btnAbrirCaja.Radius = 8;
-            this.btnAbrirCaja.Size = new System.Drawing.Size(139, 40);
+            this.btnAbrirCaja.Size = new System.Drawing.Size(57, 27);
             this.btnAbrirCaja.TabIndex = 70;
-            this.btnAbrirCaja.Text = "Abrir caja";
+            this.btnAbrirCaja.Text = "Abrir";
             this.btnAbrirCaja.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnAbrirCaja.Click += new System.EventHandler(this.btnAbrirCaja_Click);
+            // 
+            // gunaDragControl1
+            // 
+            this.gunaDragControl1.TargetControl = this;
+            // 
+            // panelMenu
+            // 
+            this.panelMenu.Controls.Add(this.gunaPanel1);
+            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelMenu.Location = new System.Drawing.Point(0, 33);
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Size = new System.Drawing.Size(103, 900);
+            this.panelMenu.TabIndex = 34;
+            // 
+            // panelBusqueda
+            // 
+            this.panelBusqueda.BackColor = System.Drawing.Color.Transparent;
+            this.panelBusqueda.Controls.Add(this.lblCaja);
+            this.panelBusqueda.Controls.Add(this.btnAbrirCaja);
+            this.panelBusqueda.Controls.Add(this.btnCerrarCaja);
+            this.panelBusqueda.Controls.Add(this.gunaGradient2Panel1);
+            this.panelBusqueda.Controls.Add(this.gunaGradient2Panel3);
+            this.panelBusqueda.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelBusqueda.Location = new System.Drawing.Point(103, 33);
+            this.panelBusqueda.Name = "panelBusqueda";
+            this.panelBusqueda.Size = new System.Drawing.Size(1152, 74);
+            this.panelBusqueda.TabIndex = 43;
             // 
             // gunaGradient2Panel1
             // 
@@ -493,10 +479,10 @@
             this.gunaGradient2Panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.gunaGradient2Panel1.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(130)))), ((int)(((byte)(68)))));
             this.gunaGradient2Panel1.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.gunaGradient2Panel1.Location = new System.Drawing.Point(688, 0);
+            this.gunaGradient2Panel1.Location = new System.Drawing.Point(869, 0);
             this.gunaGradient2Panel1.Name = "gunaGradient2Panel1";
             this.gunaGradient2Panel1.Radius = 8;
-            this.gunaGradient2Panel1.Size = new System.Drawing.Size(464, 74);
+            this.gunaGradient2Panel1.Size = new System.Drawing.Size(283, 74);
             this.gunaGradient2Panel1.TabIndex = 11;
             // 
             // lblMesaSeleccion
@@ -504,11 +490,11 @@
             this.lblMesaSeleccion.AutoSize = true;
             this.lblMesaSeleccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMesaSeleccion.ForeColor = System.Drawing.Color.Black;
-            this.lblMesaSeleccion.Location = new System.Drawing.Point(9, 27);
+            this.lblMesaSeleccion.Location = new System.Drawing.Point(5, 27);
             this.lblMesaSeleccion.Name = "lblMesaSeleccion";
-            this.lblMesaSeleccion.Size = new System.Drawing.Size(453, 24);
+            this.lblMesaSeleccion.Size = new System.Drawing.Size(275, 24);
             this.lblMesaSeleccion.TabIndex = 51;
-            this.lblMesaSeleccion.Text = "No se encuentra posicionado en ninguna mesa";
+            this.lblMesaSeleccion.Text = "Ninguna mesa seleccionada";
             // 
             // gunaGradient2Panel3
             // 
@@ -1374,6 +1360,34 @@
             this.timer.Enabled = true;
             this.timer.Interval = 60000;
             // 
+            // lblCaja
+            // 
+            this.lblCaja.AutoSize = true;
+            this.lblCaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCaja.ForeColor = System.Drawing.Color.Black;
+            this.lblCaja.Location = new System.Drawing.Point(247, 17);
+            this.lblCaja.Name = "lblCaja";
+            this.lblCaja.Size = new System.Drawing.Size(45, 16);
+            this.lblCaja.TabIndex = 52;
+            this.lblCaja.Text = "CAJA";
+            // 
+            // rjToggleButton1
+            // 
+            this.rjToggleButton1.AutoSize = true;
+            this.rjToggleButton1.BackColor = System.Drawing.Color.Transparent;
+            this.rjToggleButton1.ForeColor = System.Drawing.Color.Transparent;
+            this.rjToggleButton1.Location = new System.Drawing.Point(29, 77);
+            this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.Name = "rjToggleButton1";
+            this.rjToggleButton1.OffBackColor = System.Drawing.Color.Gray;
+            this.rjToggleButton1.OffToggleColor = System.Drawing.Color.Gainsboro;
+            this.rjToggleButton1.OnBackColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjToggleButton1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
+            this.rjToggleButton1.Size = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.TabIndex = 0;
+            this.rjToggleButton1.UseVisualStyleBackColor = false;
+            this.rjToggleButton1.CheckedChanged += new System.EventHandler(this.rjToggleButton1_CheckedChanged);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1398,6 +1412,7 @@
             this.gunaPanel1.PerformLayout();
             this.panelMenu.ResumeLayout(false);
             this.panelBusqueda.ResumeLayout(false);
+            this.panelBusqueda.PerformLayout();
             this.gunaGradient2Panel1.ResumeLayout(false);
             this.gunaGradient2Panel1.PerformLayout();
             this.gunaGradient2Panel3.ResumeLayout(false);
@@ -1489,6 +1504,7 @@
         private Guna.UI.WinForms.GunaAdvenceButton btnAbrirCaja;
         private Guna.UI.WinForms.GunaAdvenceButton btnCerrarCaja;
         private Guna.UI.WinForms.GunaGradientTileButton btnCaja;
+        private Guna.UI.WinForms.GunaLabel lblCaja;
     }
 }
 

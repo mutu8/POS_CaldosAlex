@@ -11,7 +11,6 @@ namespace CapaDatos
     public class datMetodoPago
     {
         // Actualiza los detalles de conexión según tu servidor de Azure SQL
-        //private string connectionString = "Server=34.176.49.57;Database=bd_caldosAlex;User Id=sqlserver;Password=@hV\"1%`(o63_/7V:;";
         private string connectionString = Conexion.Instancia.obtenerConexion();
         #region Singleton
         private static readonly datMetodoPago _instancia = new datMetodoPago();
